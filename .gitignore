@@ -1,0 +1,14 @@
+# Packer
+*.pkrvars.hcl
+crash.log
+packer_cache/
+manifest.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
