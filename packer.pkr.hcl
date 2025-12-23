@@ -50,7 +50,7 @@ locals {
 source "amazon-ebs" "fastapi" {
   region        = var.aws_region
   source_ami    = data.amazon-ami.amazon_linux_2023.id
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
   ssh_username  = "ec2-user"
   
   # AMI configuration
