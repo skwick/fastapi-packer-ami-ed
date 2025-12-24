@@ -13,7 +13,7 @@ packer {
 variable "aws_region" {
   description = "AWS region to build AMI"
   type        = string
-  default     = "us-east-1"
+  default     = "us-west-1"
 }
 
 variable "docker_image" {
