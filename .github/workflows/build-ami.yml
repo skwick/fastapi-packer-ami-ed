@@ -6,7 +6,7 @@ on:
       docker_image:
         description: 'Docker image to bake into AMI'
         required: true
-        default: 'edonovan32/fastapi-cicd:latest'
+        default: 'edonovan32/fastapi-simple:latest'
       environment:
         description: 'Environment (dev, staging, prod)'
         required: false
